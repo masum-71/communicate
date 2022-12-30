@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import TopPosts from "./TopPosts";
 import Upload from "./Upload";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div className=" max-w-[1200px] m-auto py-10">
       <Header></Header>
       <Upload></Upload>
+      <TopPosts></TopPosts>
     </div>
   );
 };
